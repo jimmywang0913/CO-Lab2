@@ -1,4 +1,4 @@
-// Author:
+// Author:0716029 王吉磊 0716081 葉晨
 
 module Decoder(
     instr_op_i,
