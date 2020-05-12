@@ -37,8 +37,8 @@ branchornot bon(//ok
     .data1_i(Branch_o[1]),
     .data2_i(zero_o),
     .data3_i(Branch_o[0]),
-	.data4_i(~Branch_o[1]),
-	.data5_i(~zero_o),
+	.data4_i(Branch_o[1]),
+	.data5_i(zero_o),
     .data_o(b_o)
     );
 MUX_2to1 #(.size(32)) Mux_PC_Source(//ok
