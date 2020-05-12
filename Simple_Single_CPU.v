@@ -120,7 +120,7 @@ MUX_2to1 #(.size(32)) Mux_ALUSrc(//ok
     );
 MUX_2to1 #(.size(4)) shiftmux(//
     .data0_i(instr_o[10:6]),
-    .ata1_i(),
+    .ata1_i(alu_i1[5:0]),
     .select_i(shift_o),
     .data_o(shiftmux_o)
     );
