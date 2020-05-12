@@ -1,4 +1,4 @@
-// Author:
+// Author:0716029 王吉磊 0716081 葉晨
 
 module Shift_Left_Two_32(
     data_i,
